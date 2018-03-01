@@ -7,7 +7,7 @@ import lib.jira_class as jira_class
 from lib.data_processing import ConfigFile
 import os
 
-#Ric: Parameters for main
+#Automatize: Parameters for main
 import sys
 
 
@@ -177,7 +177,7 @@ if __name__ == '__main__':
 
     # i.get_hours_jira()
 	
-	#Ric: Parameters for main
+    #Automatize: Parameters for main
     i.db.import_test_cases_directory(sys.argv[1])
 
 	# i.db.import_test_cases_directory(r"D:\04_Test_Cases\092_BEVQ6_V7")
